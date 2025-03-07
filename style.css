@@ -7,17 +7,44 @@
 }
 
 section {
-    display: flex;
+    display: block;
+    /* Cambiar de flex a block para apilar los elementos */
     justify-content: center;
-    
     align-items: center;
-    /* Centra la tabla verticalmente */
     min-height: 100vh;
     width: 100%;
-
     background: url('Fondo.jpg') no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 20px;
+
+    h1 {
+        color: rgb(228, 228, 228);
+        font-size: 36px;
+        font-family: 'Consolas', monospace;
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        /* Agregar margen inferior */
+    }
+
+    h2 {
+        color: rgb(228, 228, 228);
+        font-size: 20px;
+        font-family: 'Consolas', monospace;
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        /* Agregar margen inferior */
+    }
+}
+
+.btn btn-outline-light {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .container {
@@ -28,21 +55,12 @@ section {
     padding-right: 10px;
 }
 
-h2 {
-    font-size: 26px;
-    margin: 20px 0;
-    text-align: center;
-
-    small {
-        font-size: 0.5em;
-    }
-}
-
-
 .fl-table thead {
-    background: linear-gradient(45deg, #5a3825, #3d2415); /* Café degradado */
+    background: linear-gradient(45deg, #5a3825, #3d2415);
+    /* Café degradado */
     color: #131212;
 }
+
 .fl-table {
     width: 100%;
     border-collapse: collapse;
@@ -50,10 +68,10 @@ h2 {
     border-radius: 5px;
     overflow: hidden;
     font-family: 'Consolas', monospace;
-
 }
 
-.fl-table th, .fl-table td {
+.fl-table th,
+.fl-table td {
     padding: 10px;
     text-align: center;
     border-bottom: 1px solid #ddd;
