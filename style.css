@@ -41,12 +41,6 @@ section {
     }
 }
 
-.btn btn-outline-light {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-
 .container {
     max-width: 1000px;
     margin-left: auto;
