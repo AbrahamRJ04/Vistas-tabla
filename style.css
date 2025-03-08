@@ -89,3 +89,9 @@ section {
         white-space: nowrap;
     }
 }
+
+#genericatable { 
+    width: auto;
+    overflow-x: auto; /* Solo muestra el scroll cuando es necesario */
+    white-space: nowrap; /* Evita que el contenido se divida en varias líneas */
+}
